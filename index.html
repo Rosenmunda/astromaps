@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celestial Atlas — Star Constellations</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -20,7 +21,13 @@
     <canvas id="c"></canvas>
 
     <div id="nav">
-        <div id="nav-logo">Celestial Atlas<span>88 Constellations · Interactive 3D Sky</span></div>
+        <div id="nav-logo">
+            <img id="site-logo" src="raag.png" alt="Celestial Atlas logo">
+            <div>
+                Celestial Atlas
+                <span>88 Constellations · Interactive 3D Sky</span>
+            </div>
+        </div>
         <div id="nav-filters">
             <button class="filt on" data-f="all">All</button>
             <button class="filt" data-f="zodiac">Zodiac</button>
@@ -152,6 +159,9 @@
     <div id="abt-modal">
         <div id="abt-content">
             <button id="abt-close" onclick="closeAbout()">✕</button>
+            <div id="abt-logo">
+                <img src="raag.png" alt="Celestial Atlas logo">
+            </div>
             <h2 id="abt-title">Celestial Atlas</h2>
             <div id="abt-subtitle">Modern Astronomy · Vedic Wisdom</div>
             <p>

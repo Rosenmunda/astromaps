@@ -54,10 +54,25 @@ canvas#c:active {
 }
 
 #nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     font-family: 'Cinzel', serif;
     font-size: 17px;
     color: var(--gold);
     letter-spacing: 0.1em
+}
+
+#site-logo {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: none;
 }
 
 #nav-logo span {
@@ -775,6 +790,24 @@ canvas#ip-art {
 
 #abt-close:hover {
     color: var(--gold);
+}
+
+#abt-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+#abt-logo img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow: none;
 }
 
 #abt-title {
