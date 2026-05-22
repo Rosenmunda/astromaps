@@ -13,7 +13,7 @@ A cutting-edge interactive astronomical mapping application built with modern we
 
 ## 🚀 Quick Links
 
-- **Live Application:** [AstroMaps Web App](https://astromaps.vercel.app/)
+- **Live Application:** [AstroMaps Web App]((https://ragastromaps.vercel.app/))
 - **GitHub Repository:** [Rosenmunda/astromaps](https://github.com/Rosenmunda/astromaps)
 - **Documentation:** [Full Setup Guide](#-installation--setup)
 
